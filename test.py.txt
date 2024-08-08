@@ -1,0 +1,14 @@
+from datetime import datetime
+
+def display_local_time():
+    # Get the current local time
+    local_time = datetime.now()
+    
+    # Format the time as a string
+    formatted_time = local_time.strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Print the local time
+    print("Local Time:", formatted_time)
+
+if __name__ == "__main__":
+    display_local_time()
